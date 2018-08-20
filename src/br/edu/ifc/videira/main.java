@@ -60,7 +60,10 @@ public class main {
 								+ "2- Moletom = 80,00R$\n"
 								+ "3- Jaqueta = 100,00R$\n"
 								+ "4- Calça = 60,00R$\n");
-					}
+				}else if(op==4) {
+					JOptionPane.showMessageDialog(null, "Vendas: \n"
+							+ "" + compras);	
+				}
 			}
 		}
 	}
