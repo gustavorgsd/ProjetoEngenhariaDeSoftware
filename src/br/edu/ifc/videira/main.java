@@ -8,6 +8,7 @@ public class main {
 	public static void main(String[] args){
 		
 		List<String> compras = new ArrayList<>();
+		List<String> vendas = new ArrayList<>();
 		
 		for(;;) {
 			int op = 0;
@@ -45,6 +46,9 @@ public class main {
 							+ "2- Moletom = 80,00R$\n"
 							+ "3- Jaqueta = 100,00R$\n"
 							+ "4- Calça = 60,00R$\n"));
+					if(op2==1) {
+						vendas.add("Camiseta");				
+					}
 				}
 			}
 		}
