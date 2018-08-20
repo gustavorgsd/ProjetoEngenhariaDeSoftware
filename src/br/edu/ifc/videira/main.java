@@ -7,9 +7,12 @@ import java.util.List;
 public class main {
 	public static void main(String[] args){
 		
+		List<String> compras = new ArrayList<>();
+		
 		for(;;) {
 			int op = 0;
 			int op2 = 0;
+			int unid = 0;
 			
 			op = Integer.parseInt(JOptionPane.showInputDialog("Loja de Roupas\n"
 					+ "1 - Comprar produtos\n"
@@ -23,6 +26,11 @@ public class main {
 						+ "2 - Moletom\n"
 						+ "3 - Jaqueta\n"
 						+ "4 - Calça\n"));
+				
+				if(op2==1) {
+					unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
+					compras.add(unid+" Camiseta(s)");
+				}
 			}
 		}
 	}
