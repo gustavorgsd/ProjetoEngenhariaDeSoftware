@@ -30,6 +30,9 @@ public class main {
 				if(op2==1) {
 					unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
 					compras.add(unid+" Camiseta(s)");
+				}else if(op2==2){
+					unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
+					compras.add(unid+" Moletom(s)");
 				}
 			}
 		}
