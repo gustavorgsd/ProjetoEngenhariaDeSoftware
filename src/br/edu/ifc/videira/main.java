@@ -66,6 +66,8 @@ public class main {
 				}else if(op==5){
 					JOptionPane.showMessageDialog(null, "Compras: \n"
 							+ "" + vendas);
+				}else{
+					break;
 				}
 			}
 		}
