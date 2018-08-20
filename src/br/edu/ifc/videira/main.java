@@ -9,6 +9,7 @@ public class main {
 		
 		for(;;) {
 			int op = 0;
+			int op2 = 0;
 			
 			op = Integer.parseInt(JOptionPane.showInputDialog("Loja de Roupas\n"
 					+ "1 - Comprar produtos\n"
@@ -17,6 +18,12 @@ public class main {
 					+ "4 - Consultar compras\n"
 					+ "5 - Consultar vendas\n"
 					+ "6 - Sair\n"));
+			if(op==1){
+				op2 = Integer.parseInt(JOptionPane.showInputDialog("1 - Camiseta\n"
+						+ "2 - Moletom\n"
+						+ "3 - Jaqueta\n"
+						+ "4 - Calça\n"));
+			}
 		}
 	}
 }
