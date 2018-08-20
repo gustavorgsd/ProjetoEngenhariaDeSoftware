@@ -52,6 +52,8 @@ public class main {
 						vendas.add("Moletom");	
 					}else if(op2==3){
 						vendas.add("Jaqueta");	
+					}else{
+						vendas.add("Calça");	
 					}
 				}
 			}
