@@ -48,6 +48,8 @@ public class main {
 							+ "4- Calça = 60,00R$\n"));
 					if(op2==1) {
 						vendas.add("Camiseta");				
+					}else if(op2==2){
+						vendas.add("Moletom");	
 					}
 				}
 			}
