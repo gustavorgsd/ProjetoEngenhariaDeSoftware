@@ -50,6 +50,8 @@ public class main {
 						vendas.add("Camiseta");				
 					}else if(op2==2){
 						vendas.add("Moletom");	
+					}else if(op2==3){
+						vendas.add("Jaqueta");	
 					}
 				}
 			}
