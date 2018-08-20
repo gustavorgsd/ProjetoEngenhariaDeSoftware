@@ -39,8 +39,14 @@ public class main {
 				}else{
 					unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
 					compras.add(unid+" Calça(s)");	
+					}
+				}else if(op==2){
+					op2 = Integer.parseInt(JOptionPane.showInputDialog("1- Camiseta = 50,00R$\n"
+							+ "2- Moletom = 80,00R$\n"
+							+ "3- Jaqueta = 100,00R$\n"
+							+ "4- Calça = 60,00R$\n"));
 				}
 			}
 		}
 	}
-}
+
